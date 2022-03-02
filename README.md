@@ -1,27 +1,15 @@
-# RookieDraft
+# Edge Delta Coding Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+### Overview
 
-## Development server
+It's time for the 2022 NHL Entry Draft, and you've been tasked with creating a simple web app that each team can use to select their player. There are 32 teams, and 32 available players to be drafted. Each team has 10 seconds to make their selection. The draft is over when all 32 teams have selected a player.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Requirements
 
-## Code scaffolding
+1. Each team has 10 seconds to make their selection. The timer should be visible in the UI. If the time runs out, the team currently on the clock will automatically get the next available player.
+2. Teams can only pick players from the available players list. If a player has already been selected, he now belongs to that team and can't be selected by another team.
+3. Every team should be visible in the UI, with their selected player displayed (if they've picked one). You get bonus points if their selected player's draft position is visible next to their name.
+4. The UI should be somewhat visually appealing. You don't need to go find logos for the teams, but a well thought-out layout will give us a good idea of your CSS skills.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Bonus Points**
+Get as crazy as you want with the challenge. The players have a decent amount of information on them. Use it in whatever way you see fit!
